@@ -1,0 +1,108 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.nav {
+    border: 1em solid #ccc;
+    border-width: .1em 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color:lightblue;
+}
+.nav li { display: inline; }
+.nav a {
+    padding: .33em;
+    text-decoration: none;
+    font-size:1.2em;
+}
+
+h1{ font: 2.8em "Palatino Linotype", "Book Antiqua", Palatino, serif; text-align:center; background-color:#FF8267; height: 80px; margin: 0;}
+body{
+  margin:0;
+}
+.a,.b,.mantra{
+  display: inline;
+}
+.a{
+  display: left;
+}
+.b{
+  float: right;
+}
+ 
+.online-booking{
+   float:left; width: 300px; height:400px; background-color:	#F0F8FF; border: 5px solid green border-style:hidden;  padding: 15px;margin: 35px;
+   text-align: center;
+   font-size: 25px;
+   text-decoration: none;
+   color: red;
+   text-decoration: none;
+}
+a:hover {
+    background-color: yellow;
+}
+ a { font-size: 25px;text-decoration: none;}
+ h1,h2,h3,h4,h5,h6 {
+     font-family: "Playfair Display";
+     letter-spacing: 4px;
+ }
+h2{
+  font-size: 25px;
+  text-align: center;
+  color: red;
+}
+p{
+  font-size: 20px;
+
+  padding: 10px;
+  margin: 30px;
+}
+h3,h2{
+  font-size: 23px;
+  margin: 30px 40px;
+
+}
+img{
+  float: left;
+
+}
+.amntra1,.mantra{
+  float:right;
+  display: inline-block;
+  margin-left: 40px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
